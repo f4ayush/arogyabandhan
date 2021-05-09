@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <title>Arogyabandhan</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/image/logoz.png" type="image/icon type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Raleway"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="/styles/custom.css" />
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="#home" class="w3-bar-item w3-button w3-wide"
+          ><img id="logo" src="/image/logoz.png" alt="" srcset="" />
+          Arogyabandhan</a
+        >
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+          <a href="#about" class="w3-bar-item w3-button"> ABOUT</a>
+          <a href="#learn" class="w3-bar-item w3-button"
+            ><i class="fa fa-user"></i> LEARN</a
+          >
+          <a href="#sessions" class="w3-bar-item w3-button"
+            ><i class="fa fa-th"></i> SESSIONS</a
+          >
+          <a href="https://forms.gle/LtfxMQe8i84To5Lj7" class="w3-bar-item w3-button"
+            ><i class="fa fa-usd"></i> REGISTER</a
+          >
+          <a href="#contact" class="w3-bar-item w3-button"
+            ><i class="fa fa-envelope"></i> CONTACT</a
+          >
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a
+          href="javascript:void(0)"
+          class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+          onclick="w3_open()"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav
+      class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
+      style="display: none"
+      id="mySidebar"
+    >
+      <a
+        href="javascript:void(0)"
+        onclick="w3_close()"
+        class="w3-bar-item w3-button w3-large w3-padding-16"
+        >Close ×</a
+      >
+      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"
+        >ABOUT</a
+      >
+      <a href="#learn" onclick="w3_close()" class="w3-bar-item w3-button"
+        >LEARN</a
+      >
+      <a href="#sessions" onclick="w3_close()" class="w3-bar-item w3-button"
+        >SESSIONS</a
+      >
+      <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button"
+        >REGISTER</a
+      >
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button"
+        >CONTACT</a
+      >
+    </nav>
+
+    <!-- Header with full-height image -->
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+      <div class="w3-display-left w3-text-white" style="padding: 48px">
+        <span class="w3-jumbo w3-hide-small">Start something that matters</span
+        ><br />
+        <span class="w3-xxlarge w3-hide-large w3-hide-medium"
+          >Start something that matters</span
+        ><br />
+        <span class="w3-large">Health is the most valuable asset.</span>
+        <p>
+          <a
+            href="#about"
+            class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off"
+            >Start today</a
+          >
+        </p>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-container m6" style="padding: 50px 16px" id="about">
+      <h3 class="w3-center">ABOUT THE AROGYABANDHAN</h3>
+      <p class="w3-center w3-large">Key features</p>
+      <div class="w3-row-padding w3-center" style="margin-top: 64px">
+        <div class="w3-quarter">
+          <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+          <p class="w3-large">Online classes</p>
+          <p>
+            Stay home, stay safe in this pandemic time and improve your fitness
+            with online classes.
+          </p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Morning Sessions</p>
+          <p>
+            Studies have shown that early morning workout has greater results
+            than any other time of the day.
+          </p>
+        </div>
+        <div class="w3-quarter">
+          <i class="far fa-gem w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Beginner Friendly</p>
+          <p>Start learning from scratch and practice moves till mastery</p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Support</p>
+          <p>In case of doubt in any exercise 24*7 chat support is provided.</p>
+        </div>
+      </div>
+    </div>
+    <!-- for benefits -->
+    <div id="learn" class="flex-container w3-light-grey">
+      <div class="left m6">
+        <h3>Start Learning</h3>
+        <p>
+          A good foundation is essential to build an Empire.<br />Every master
+          was once a beginner.
+        </p>
+
+        <a href="#sessions" class="w3-button w3-black"
+          ><i class="fa fa-th"> </i> View Our Sessions</a
+        >
+        <p>
+          <a href="https://forms.gle/LtfxMQe8i84To5Lj7"><button class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Register</button></a>
+        </p>
+      </div>
+      <div class="right">
+        <img
+          class="w3-image w3-round-large"
+          src="/image/WhatsApp Image 2021-04-30 at 10.45.04 PM.jpeg"
+          alt="Buildings"
+          width="700"
+          height="394"
+        />
+      </div>
+    </div>
+
+    <!-- Trainer intro -->
+    <div class="flex-container-intro">
+      <div class="left-intro">
+        <img
+          class="w3-image w3-round-large"
+          src="/image/WhatsApp Image 2021-04-30 at 11.47.10 PM.jpeg"
+          alt="Buildings"
+          width="700"
+          height="394"
+        />
+      </div>
+      <div class="right-intro">
+        <div class="intro m6">
+          <h3>About Trainer</h3>
+          <p>Ayush Raj Anand</p>
+          <p>Yoga and Fitness Enthusiast</p>
+          <p>Black Belt (Dan 1) Taekwondo</p>
+          <p>Open National Taekwondo Champion</p>
+          <p>Training Taekwondo from two years</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Promo Section "Statistics" -->
+    <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+      <div class="w3-third">
+        <span class="w3-xxlarge">3</span>
+        <br />Webinars
+      </div>
+      <div class="w3-third">
+        <span class="w3-xxlarge">50+</span>
+        <br />Happy Clients
+      </div>
+      <div class="w3-third">
+        <span class="w3-xxlarge">30+</span>
+        <br />Sessions
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="w3-container w3-light-grey w3-padding-64">
+      <div class="w3-row-padding">
+        <div class="w3-col m6">
+          <h3>Benefits</h3>
+          <ul>
+            <li>Improved muscle tone and appearance.</li>
+            <li>Increased strength and stamina.</li>
+            <li>Improved confidence and self-esteem.</li>
+            <li>Improved flexibility.</li>
+            <li>Improved agility and reflexes.</li>
+            <li>Improved concentration and focus.</li>
+            <li>Improved leadership skills.</li>
+            <li>Greater self-discipline.</li>
+          </ul>
+        </div>
+        <div class="w3-col m6">
+          <p class="w3-wide">
+            <i class="fas fa-heart w3-margin-right"></i>Cardio
+          </p>
+          <div class="w3-grey">
+            <div class="w3-container w3-dark-grey w3-center" style="width: 90%">
+              90%
+            </div>
+          </div>
+          <p class="w3-wide">
+            <i class="fas fa-running w3-margin-right"></i>Stretching
+          </p>
+          <div class="w3-grey">
+            <div class="w3-container w3-dark-grey w3-center" style="width: 85%">
+              85%
+            </div>
+          </div>
+          <p class="w3-wide">
+            <i class="fas fa-fire-alt w3-margin-right"></i>Taekwondo
+          </p>
+          <div class="w3-grey">
+            <div
+              class="w3-container w3-dark-grey w3-center"
+              style="width: 100%"
+            >
+              100%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- our previous sessions -->
+    <div id="sessions" class="flex-container-session">
+      <div class="session-heading">
+        <h3>PREVIOUS SESSIONS</h3>
+      </div>
+      <div class="session-images">
+        <img
+          src="/image/session1.jpeg"
+          onclick="onClick(this)"
+          class="w3-hover-opacity"
+          alt="previous session images"
+        />
+        <img
+          src="/image/session2.jpeg"
+          onclick="onClick(this)"
+          class="w3-hover-opacity"
+          alt="previous session images"
+        />
+        <img
+          src="/image/session3.jpeg"
+          onclick="onClick(this)"
+          class="w3-hover-opacity"
+          alt="previous session images"
+        />
+      </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div
+      id="modal01"
+      class="w3-modal w3-black"
+      onclick="this.style.display='none'"
+    >
+      <span
+        class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright"
+        title="Close Modal Image"
+        >×</span
+      >
+      <div
+        class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64"
+      >
+        <img id="img01" class="w3-image" />
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div
+      class="w3-container w3-light-grey"
+      style="padding: 80px 16px"
+      id="contact"
+    >
+      <h3 class="w3-center">CONTACT</h3>
+      <p class="w3-center w3-large">Lets get in touch.</p>
+      <div class="contact-details" style="margin-top: 20px">
+        <p>
+          <i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>
+          Mohali, Punjab
+        </p>
+        <p>
+          <i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:
+          +91 7380574904
+        </p>
+        <p>
+          <i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>
+          Email: f4ayush@gmail.com
+        </p>
+        <br />
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-32">
+      <a href="#home" class="w3-button w3-light-grey"
+        ><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a
+      >
+      <div class="w3-xlarge w3-section">
+        <i class="fab fa-telegram w3-hover-opacity"></i>
+        <i class="fab fa-instagram w3-hover-opacity"></i>
+        <i class="fab fa-whatsapp w3-hover-opacity"></i>
+      </div>
+      <!-- <p>Pow ered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
+    </footer>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
