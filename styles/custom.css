@@ -46,6 +46,14 @@ img#logo {
 img.w3-image.w3-round-large {
   max-width: 50vw;
 }
+
+#trainer-heading{
+  font-size: 3em;
+}
+.about-trainer-text{
+  font-size: 1.35em;
+  font-weight: 500;
+}
 .right {
   display: flex;
   align-items: center;
