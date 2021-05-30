@@ -18,6 +18,15 @@ img#logo {
   width: 30px;
 }
 
+.red-text{
+  color: red;
+  font-weight: bold;
+}
+.free-trial {
+  font-weight: bold;
+  color: aqua;
+  font-size: large;
+}
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
